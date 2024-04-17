@@ -1,5 +1,21 @@
-<main class="main">
-  <button class="verde" (click)="count = count + 1; mensaje = 'Hola'">Hola</button>
-  <button class="rosa" (click)="count = count + 1; mensaje ='Adios';">Adios</button>
-  {{dameMensaje()}}
-</main>
+<h2>botones de colores</h2>
+<button class="verde" (click)="count = count + 1; mensaje = 'Hola'">Hola</button>
+<button class="rosa" (click)="count = count + 1; mensaje ='Adios';">Adios</button>
+{{entrada}}
+{{dameMensaje()}}
+<h2>Suma de valores</h2>
+<input type="text" id="numero1" [(ngModel)]="numero1" />
++
+<input type="text" id="numero2" [(ngModel)]="numero2" />
+<p>El resultado es {{resultado()}}</p>
+
+<h2>Palindromo</h2>
+<input type="text" id="numero1" [(ngModel)]="palindromo" />
+<p>{{palindromoreverse()}}</p>
+
+<h2>Medidor</h2>
+<input type="text" id="numero1" [(ngModel)]="textoMedido" />
+<p>Longitud: {{medirTexto()}}</p>
+
+<input type="text" id="numero1" value="{{guiones}}" />
+
