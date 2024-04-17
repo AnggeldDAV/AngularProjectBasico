@@ -1,0 +1,10 @@
+.verde {
+  background-color: green;
+  border-radius: 10px;
+  border-color: pink;
+}
+.rosa {
+  background-color: pink;
+  border-radius: 10px;
+  border-color: green;
+}
